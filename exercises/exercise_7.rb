@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+store_choice = gets.chomp
+puts Store.create(name: store_choice).errors.full_messages
